@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8436" started-at="2015-02-19T05:54:01Z" finished-at="2015-02-19T05:54:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8436" started-at="2015-02-19T05:54:01Z" finished-at="2015-02-19T05:54:10Z">
+      <class name="TestNGOnePackage.ClassOne">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGOnePackage.ClassOne@5aec3076]" name="f" duration-ms="3588" started-at="2015-02-18T21:54:01Z" data-provider="dp" finished-at="2015-02-18T21:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email again]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGOnePackage.ClassOne@5aec3076]" name="f" duration-ms="645" started-at="2015-02-18T21:54:05Z" data-provider="dp" finished-at="2015-02-18T21:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first name 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[last name 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email again 2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNGOnePackage.ClassOne@5aec3076]" name="afterTest" is-config="true" duration-ms="264" started-at="2015-02-18T21:54:10Z" finished-at="2015-02-18T21:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGOnePackage.ClassOne -->
+      <class name="TestNGTwoPackage.ClassTwo">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGTwoPackage.ClassTwo@3c3c270c]" name="login" is-config="true" duration-ms="637" started-at="2015-02-18T21:54:06Z" finished-at="2015-02-18T21:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNGTwoPackage.ClassTwo@3c3c270c]" name="test2" duration-ms="1" started-at="2015-02-18T21:54:06Z" finished-at="2015-02-18T21:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNGTwoPackage.ClassTwo@3c3c270c]" name="test3" duration-ms="2" started-at="2015-02-18T21:54:06Z" finished-at="2015-02-18T21:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="addNewRecord()[pri:0, instance:TestNGTwoPackage.ClassTwo@3c3c270c]" name="addNewRecord" duration-ms="2546" started-at="2015-02-18T21:54:06Z" finished-at="2015-02-18T21:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewRecord -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNGTwoPackage.ClassTwo@3c3c270c]" name="close" is-config="true" duration-ms="684" started-at="2015-02-18T21:54:09Z" finished-at="2015-02-18T21:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNGTwoPackage.ClassTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
